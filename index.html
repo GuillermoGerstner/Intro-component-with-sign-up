@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./files/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+
+  <link rel="stylesheet" href="./main.css">
+</head>
+<body>
+  <main class="main-container">
+    <section class="text">
+      <h1 class="text__title">Learn to code by watching others</h1>
+
+      <p class="text__description">
+        See how experienced developers solve problems in real-time. Watching scripted tutorials is great, but understanding how developers think is invaluable.
+      </p>
+    </section>
+
+    <section class="content">
+      <button class="content__button">
+        <span class="content__button-try">Try it free 7 days</span> then $20/mo. thereafter
+      </button>
+
+      <div class="content__form">
+        <form action="">
+        <label for="first" class="content__form__label">
+          <input type="text" class="content__form__label-input" name="first" placeholder="First Name">
+          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image">
+        </label>
+
+        <label for="last" class="content__form__label">
+          <input type="text" class="content__form__label-input" name="last" placeholder="Last Name">
+          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image">
+        </label>
+
+        <label for="email" class="content__form__label">
+          <input type="email" class="content__form__label-input" name="email" placeholder="Email Address">
+          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image">
+        </label>
+
+        <label for="password" class="content__form__label">
+          <input type="password" class="content__form__label-input" name="password" placeholder="Password">
+          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image">
+        </label>
+
+        <button class="content__form__button">
+          Claim your free trial
+        </button>
+        </form>
+        <p class="content__form__text">
+          By clicking the button, you are agreeing to our <span class="content__form__text-terms">Terms and Services</span>
+        </p>
+      </div>
+    </section>
+  </main>
+  
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.linkedin.com/in/guillermogerstner">Guillermo Gerstner</a>.
+    </p>
+  </footer>
+
+  <script src="./index.js"></script>
+</body>
+</html>
