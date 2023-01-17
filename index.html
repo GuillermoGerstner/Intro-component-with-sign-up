@@ -32,31 +32,43 @@
       </button>
 
       <div class="content__form">
-        <form action="">
-        <label for="first" class="content__form__label">
-          <input type="text" class="content__form__label-input" name="first" placeholder="First Name">
-          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image">
+        
+        <label for="first" class="content__form__label" id="first_label">
+          <input type="text" class="content__form__label-input" name="first" placeholder="First Name" id="first_input">
+          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image" id="first_image">
         </label>
+        <div class="error" id="first_error">
+          First Name cannot be empty
+        </div>
 
-        <label for="last" class="content__form__label">
-          <input type="text" class="content__form__label-input" name="last" placeholder="Last Name">
-          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image">
+        <label for="last" class="content__form__label" id="last_label">
+          <input type="text" class="content__form__label-input" name="last" placeholder="Last Name" id="last_input">
+          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image" id="last_image">
         </label>
+        <div class="error" id="last_error">
+          Last Name cannot be empty
+        </div>
 
-        <label for="email" class="content__form__label">
-          <input type="email" class="content__form__label-input" name="email" placeholder="Email Address">
-          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image">
+        <label for="email" class="content__form__label" id="email_label">
+          <input type="email" class="content__form__label-input" name="email" placeholder="Email Address" id="email_input">
+          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image" id="email_image">
         </label>
+        <div class="error" id="email_error">
+          Looks like this is not an email
+        </div>
 
-        <label for="password" class="content__form__label">
-          <input type="password" class="content__form__label-input" name="password" placeholder="Password">
-          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image">
+        <label for="password" class="content__form__label" id="password_label">
+          <input type="password" class="content__form__label-input" name="password" placeholder="Password" id="password_input">
+          <img src="./files/images/icon-error.svg" alt="image" class="content__form__label-image" id="password_image">
         </label>
+        <div class="error" id="password_error">
+          Password cannot be empty
+        </div>
 
-        <button class="content__form__button">
+        <button class="content__form__button" id="claim_btn">
           Claim your free trial
         </button>
-        </form>
+
         <p class="content__form__text">
           By clicking the button, you are agreeing to our <span class="content__form__text-terms">Terms and Services</span>
         </p>

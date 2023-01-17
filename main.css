@@ -162,6 +162,11 @@ body {
   margin: 0px 16px 0px 16px;
   outline: none;
 }
+@media (min-width: 768px) {
+  .content__form__label-input {
+    width: 380px;
+  }
+}
 .content__form__label-image {
   display: none;
 }
@@ -216,12 +221,27 @@ body {
   font-weight: 700;
 }
 
+.error {
+  color: hsl(0deg, 100%, 74%);
+  font-style: italic;
+  align-self: flex-end;
+  margin-right: 28px;
+  margin-bottom: 16px;
+  font-size: 12px;
+  font-weight: 500;
+  display: none;
+}
+
 .attribution {
   color: hsl(0deg, 0%, 100%);
 }
 
 footer {
   justify-self: center;
+}
+
+.red::-webkit-input-placeholder {
+  color: hsl(0deg, 100%, 74%);
 }
 
 /*# sourceMappingURL=main.css.map */
